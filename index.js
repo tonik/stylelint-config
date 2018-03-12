@@ -54,6 +54,10 @@ module.exports = {
           "name": "include",
           "hasBlock": true
         },
+        {
+          "type": "at-rule",
+          "name": "media"
+        },
         "rules"
       ]
     ]
