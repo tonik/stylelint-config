@@ -13,6 +13,7 @@ module.exports = {
     "selector-attribute-operator-space-before": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-brackets-space-inside": "never",
+    "shorthand-property-no-redundant-values": true,
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-space-before": "never",
     "declaration-colon-space-after": "always",
