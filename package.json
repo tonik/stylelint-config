@@ -1,0 +1,33 @@
+{
+  "name": "@tonik/stylelint-config",
+  "version": "1.0.0",
+  "description": "A shareable config for stylelint used at Tonik",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "tonik"
+  ],
+  "author": "Tonik <hello@tonik.pl> (http://tonik.pl)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonik/stylelint-config.git"
+  },
+  "homepage": "https://github.com/tonik/stylelint-config",
+  "bugs": {
+    "url": "https://github.com/tonik/stylelint-config/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "devDependencies": {
+    "stylelint": "^9.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^9.0.0"
+  }
+}
