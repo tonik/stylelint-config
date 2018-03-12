@@ -22,6 +22,7 @@ module.exports = {
     "number-leading-zero": "never",
     "number-max-precision": 3,
     "function-url-quotes": "always",
+    "function-parentheses-space-inside": "never-single-line",
     "font-weight-notation": "numeric",
     "font-family-name-quotes": "always-where-required",
     "comment-whitespace-inside": "always",
