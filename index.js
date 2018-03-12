@@ -19,6 +19,7 @@ module.exports = {
     "property-no-vendor-prefix": true,
     "value-no-vendor-prefix": true,
     "number-leading-zero": "never",
+    "number-max-precision": 3,
     "function-url-quotes": "always",
     "font-weight-notation": "numeric",
     "font-family-name-quotes": "always-where-required",
