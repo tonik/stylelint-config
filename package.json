@@ -1,7 +1,7 @@
 {
   "name": "@tonik/stylelint-config",
   "version": "1.0.1",
-  "description": "A shareable config for stylelint used at Tonik",
+  "description": "A shareable stylelint config for CSS used at Tonik",
   "keywords": [
     "stylelint",
     "stylelint-config",
