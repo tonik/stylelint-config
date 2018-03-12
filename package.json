@@ -1,6 +1,6 @@
 {
   "name": "@tonik/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A shareable config for stylelint used at Tonik",
   "keywords": [
     "stylelint",
@@ -25,9 +25,9 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "devDependencies": {
-    "stylelint": "^9.0.0"
+    "stylelint": "^8.4.0"
   },
   "peerDependencies": {
-    "stylelint": "^9.0.0"
+    "stylelint": "^8.4.0"
   }
 }
