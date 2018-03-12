@@ -33,6 +33,10 @@ module.exports = {
     }],
     "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-class-parentheses-space-inside": "never",
+    "selector-class-pattern": ["^[a-z0-9-_]+$", {
+      "resolveNestedSelectors": true,
+      "message": "Selector should be written in lowercase with hyphens or underscores (selector-class-pattern)"
+    }],
     "media-feature-range-operator-space-before": "always",
     "media-feature-range-operator-space-after": "always",
     "media-feature-parentheses-space-inside": "never",
