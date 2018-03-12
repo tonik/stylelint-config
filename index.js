@@ -1,5 +1,6 @@
 module.exports = {
   "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-order"],
   "rules": {
     "indentation": 2,
     "string-quotes": "double",
@@ -33,6 +34,28 @@ module.exports = {
     "media-feature-range-operator-space-after": "always",
     "media-feature-parentheses-space-inside": "never",
     "media-feature-colon-space-before": "never",
-    "media-feature-colon-space-after": "always"
+    "media-feature-colon-space-after": "always",
+    "order/order": [
+      [
+        "custom-properties",
+        "dollar-variables",
+        {
+          "type": "at-rule",
+          "name": "extend"
+        },
+        "declarations",
+        {
+          "type": "at-rule",
+          "name": "include",
+          "hasBlock": false
+        },
+        {
+          "type": "at-rule",
+          "name": "include",
+          "hasBlock": true
+        },
+        "rules"
+      ]
+    ]
   }
 };
