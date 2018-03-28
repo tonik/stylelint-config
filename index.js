@@ -24,7 +24,7 @@ module.exports = {
     "function-url-quotes": "always",
     "function-parentheses-space-inside": "never-single-line",
     "font-weight-notation": "numeric",
-    "font-family-name-quotes": "always-where-required",
+    "font-family-name-quotes": "always-unless-keyword",
     "comment-whitespace-inside": "always",
     "comment-empty-line-before": "always",
     "at-rule-no-vendor-prefix": true,
