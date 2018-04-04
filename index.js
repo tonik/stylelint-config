@@ -7,7 +7,9 @@ module.exports = {
     "no-duplicate-selectors": true,
     "color-hex-case": "lower",
     "color-hex-length": "short",
-    "selector-no-qualifying-type": true,
+    "selector-no-qualifying-type": [true, {
+      "ignore": ["attribute"]
+    }],
     "selector-combinator-space-after": "always",
     "selector-attribute-quotes": "always",
     "selector-attribute-operator-space-before": "never",
