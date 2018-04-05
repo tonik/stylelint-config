@@ -32,7 +32,8 @@ module.exports = {
     "comment-empty-line-before": "always",
     "at-rule-no-vendor-prefix": true,
     "rule-empty-line-before": ["always", {
-      "except": ["first-nested"]
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
     }],
     "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-class-parentheses-space-inside": "never",
