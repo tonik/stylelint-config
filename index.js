@@ -35,6 +35,10 @@ module.exports = {
       "except": ["first-nested"],
       "ignore": ["after-comment"]
     }],
+    "at-rule-empty-line-before": ["always", {
+      "except": ["first-nested"],
+      "ignore": ["after-comment", "blockless-after-same-name-blockless"]
+    }],
     "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-class-parentheses-space-inside": "never",
     "selector-class-pattern": ["^[a-z0-9-_]+$", {
