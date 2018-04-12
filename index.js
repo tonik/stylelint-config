@@ -53,22 +53,7 @@ module.exports = {
     "order/order": [
       [
         "custom-properties",
-        "dollar-variables",
-        {
-          "type": "at-rule",
-          "name": "extend"
-        },
         "declarations",
-        {
-          "type": "at-rule",
-          "name": "include",
-          "hasBlock": false
-        },
-        {
-          "type": "at-rule",
-          "name": "include",
-          "hasBlock": true
-        },
         {
           "type": "at-rule",
           "name": "media"
