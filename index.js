@@ -32,7 +32,7 @@ module.exports = {
     "comment-empty-line-before": "always",
     "at-rule-no-vendor-prefix": true,
     "rule-empty-line-before": ["always", {
-      "except": ["first-nested"],
+      "except": ["first-nested", "after-single-line-comment"],
       "ignore": ["after-comment"]
     }],
     "at-rule-empty-line-before": ["always", {
