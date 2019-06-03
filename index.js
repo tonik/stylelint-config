@@ -69,6 +69,7 @@ module.exports = {
       'right',
       'bottom',
       'left',
+      'z-index',
       'flex',
       'flex-basis',
       'flex-direction',
@@ -188,8 +189,7 @@ module.exports = {
       'speak',
       'table-layout',
       'vertical-align',
-      'visibility',
-      'z-index'
+      'visibility'
     ]
   }
 };
