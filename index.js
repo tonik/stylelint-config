@@ -22,7 +22,7 @@ module.exports = {
     "declaration-colon-newline-after": "always-multi-line",
     "property-no-vendor-prefix": true,
     "value-no-vendor-prefix": true,
-    "number-leading-zero": "never",
+    "number-leading-zero": "always",
     "number-max-precision": 3,
     "function-url-quotes": "always",
     "function-parentheses-space-inside": "never-single-line",
