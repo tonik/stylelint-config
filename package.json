@@ -1,6 +1,6 @@
 {
   "name": "@tonik/stylelint-config",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "A shareable stylelint config for CSS used at Tonik",
   "keywords": [
     "stylelint",
@@ -22,13 +22,13 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-order": "^0.8.1"
+    "stylelint-config-standard": "^18.0.0",
+    "stylelint-order": "^3.0.0"
   },
   "devDependencies": {
-    "stylelint": "^8.0.0||^9.0.0"
+    "stylelint": "^10.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^8.0.0||^9.0.0"
+    "stylelint": "^10.0.0"
   }
 }
