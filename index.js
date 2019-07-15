@@ -62,7 +62,7 @@ module.exports = {
       ]
     ],
     "order/properties-order": [
-      # Positioning
+      // Positioning
       "position",
       "top",
       "right",
@@ -70,7 +70,7 @@ module.exports = {
       "left",
       "z-index",
 
-      # Model
+      // Model
       "display",
       "flex",
       "flex-basis",
@@ -125,7 +125,7 @@ module.exports = {
       "padding-bottom",
       "padding-left",
 
-      # Typography
+      // Typography
       "color",
       "font",
       "font-weight",
@@ -184,7 +184,7 @@ module.exports = {
       "page-break-inside",
       "src",
 
-      # Visual
+      // Visual
       "border",
       "border-color",
       "border-style",
@@ -258,7 +258,7 @@ module.exports = {
       "backdrop-filter",
       "mix-blend-mode",
 
-      # Animation
+      // Animation
       "transition",
       "transition-delay",
       "transition-timing-function",
@@ -274,7 +274,7 @@ module.exports = {
       "animation-direction",
       "animation-fill-mode",
 
-      # Misc
+      // Misc
       "appearance",
       "content",
       "clip",
@@ -296,7 +296,7 @@ module.exports = {
       "fill",
       "fill-rule",
       "clip-rule",
-      "stroke"
+      "stroke",
     ]
   }
 };
